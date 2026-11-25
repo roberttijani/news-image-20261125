@@ -7,4 +7,5 @@ output/
 *.tmp.png
 *.2048.png
 *.html
+transcripts.tar.gz
 !scripts/data/

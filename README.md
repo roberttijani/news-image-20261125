@@ -4,19 +4,19 @@
 [![rank](https://make.fun/badge/news-image-20261125/roberttijani/news-image-20261125/rank.svg)](https://make.fun/bounty/news-image-20261125/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261125)
 [![reward](https://make.fun/badge/news-image-20261125/roberttijani/news-image-20261125/reward.svg)](https://make.fun/bounty/news-image-20261125?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261125)
 
-Deterministic **v2** submission for the [make.fun `news-image-20261125` bounty](https://make.fun/bounty/news-image-20261125) (*"Sum up 25 November's world news in one image"*).
+Deterministic **v3** submission for the [make.fun `news-image-20261125` bounty](https://make.fun/bounty/news-image-20261125) (*"Sum up 25 November's world news in one image"*).
 
 ![The World on Wednesday, 25 November 2026](assets/entry.png)
 
-## Overview (v2)
+## Overview (v3)
 
-- **Format**: 1024×1024 PNG (`assets/entry.png`, 219.8 KB), rendered at 2048×2048 from a custom Swiss illustrated broadsheet HTML/SVG composition via headless Chromium, Lanczos-downscaled to 1024×1024, and optimized with 256-color perceptual quantization + `oxipng` (37.49 dB PSNR).
-- **Content**: 36 verified Wednesday, 25 November 2026 stories across all 6 inhabited continents plus Space, Markets, Cyber, Energy, and Sports:
-  - **Zone 1 — Masthead**: Exact date, 07:00 GMT snapshot metadata, story/scene count, category breakdown, and `DATE CHECK ✓ WED 25 NOV 2026 UTC` badge.
-  - **Zone 2 — 10 Custom-Drawn Pictorial Editorial Scenes (2×5 Grid, Pins #1–#10)**: Multi-color editorial SVG illustrations for Shenzhou-24 docking at Tiangong, KOSPI -6.2% AI rout, UK Energy Cap +26%, US tariffs on 16 partners, Riyadh tower strike, WHO Ebola teams trapped in Ituri, CIA breach & Microsoft Code Red, Eurostar strike halt, Vaibhav Sooryavanshi's 204 off 53, and the Australia–Solomons security pact.
-  - **Zone 3 — Natural Earth 110m World Map**: Collision-free numbered pins (`1–10` double-ring scene heroes, `11–36` regional briefs), clean continent labels, and `DATE CHECK` verification seal.
-  - **Zone 4 — 26-Story 6-Continent Brief (Pins #11–#36)**: Crisp 1-line dated briefs across Americas, Europe, Africa, Asia, Middle East, and Oceania & Global.
-  - **Zone 5 — Global Markets Ticker (07:00 GMT)**: KOSPI, Nikkei, Shanghai, NVDA, Nasdaq, Dow, Gold, Silver, Brent, WTI, BTC, USD/JPY, and UK Cap +26%.
+- **Format**: 1024×1024 PNG (`assets/entry.png`, `< 200 KB`), rendered at 2048×2048 from a custom Swiss editorial broadsheet HTML/SVG composition via headless Chromium, Lanczos-downscaled to 1024×1024, and optimized with 256-color perceptual quantization + `oxipng` (~37.3 dB PSNR).
+- **Content**: 38 strictly verified Wednesday, 25 November 2026 stories across all 6 inhabited continents plus Space, Markets, Cyber, Energy, and Sports:
+  - **Header**: Dark navy dispatch banner, classic serif masthead, 6-KPI strip (`1ST`, `-6.2%`, `+26%`, `16`, `204`, `4.90%`), and 6-Continent Proportion Bar (`ASIA 10 · EUROPE 9 · AMERICAS 7 · MIDDLE EAST 5 · AFRICA 4 · OCEANIA & GLOBAL 3`).
+  - **Row 1 — 3 Lead Story Cards (`#1–#3`)**: Original flat geometric editorial vector illustrations with source attribution, epistemic status tags (`OFFICIAL` / `REPORTED`), and crimson **`WHY IT MATTERS`** strategic takeaways (Shenzhou-24 docking at Tiangong with first Pakistani astronaut; Asia chip rout sending KOSPI down 6.2%; US readying fresh tariffs on 16 trading partners).
+  - **Rows 2–3 — 10 Illustrated Secondary Cards (`#4–#13`, 2×5 Grid)**: Original geometric vector scenes with corner stat pills, concise factual briefs, wire sources, and status tags (UK Energy Cap +26%, Eurostar walkout, Riyadh tower hit, CIA & ODNI breach / Microsoft Code Red, WHO Ebola teams trapped in Ituri, Australia–Solomons security pact, Vaibhav Sooryavanshi's 204 off 53 balls, Xi's probe of Shanghai party boss, gold breaking below $3,600, and UN Nov 25 femicide alert).
+  - **Bottom Split**: Left **Natural Earth 110m World Map** plotting collision-free pins `1–13` with continent legend; Right **2-Column Dispatch (`#14–#38`)** covering 25 additional dated stories across all 6 continents.
+  - **Strict `DATE CHECK` Footer**: Verifies all 38 stories to Wed 25 Nov 2026 UTC and explicitly lists excluded earlier wires (Huawei verdict 24 Nov, Senegal AFCON CAS ruling 24 Nov, Cartagena siege onset 24 Nov, Zaporizhzhia strike 24 Nov, Eskişehir crash 24 Nov, Quebec monarch oath 23 Nov).
 
 ## Deterministic Execution (`program/v1`)
 
