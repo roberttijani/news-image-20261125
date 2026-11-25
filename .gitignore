@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+tmp/
+.tmp/
+output/
+*.tmp.png
+*.2048.png
+*.html
+!scripts/data/
